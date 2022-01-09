@@ -1,2 +1,2 @@
-# lelynx.com
+# lelynx.dk
 Un mensuelle
