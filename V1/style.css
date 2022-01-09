@@ -1,0 +1,107 @@
+ 
+body {
+    text-decoration: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    border: 30ch;
+    border-color: black;
+}
+
+a:hover {
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.llccontainer {
+    color: rgb(255, 255, 255);
+    width: 80%;
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+    text-align:fill;
+    padding:inherit;
+    
+    
+}
+
+
+
+.breakingnews {
+    align-items: center;
+    text-decoration-color: black;
+    width: 80%;
+    background-color: rgba(255, 238, 0, 0.712);
+    border-radius:10px;
+    text-align:center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 8px
+}
+
+.breakingnews label{
+    display:block;
+}
+
+.container {
+    width:auto;
+    min-width: 10vw;
+    height: 100vw;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    display: grid;
+
+    grid-template-columns: repeat(4.1, 1fr);
+    grid-template-rows: repeat(10,  1fr);
+
+    gap: 5px;
+}
+
+.lejardinier {
+    background-image: url("https://i.guim.co.uk/img/media/ef96c1f2495b60ec83379962d4aec38bfb1ce039/0_187_5600_3363/master/5600.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=a96e7cb435ac3a89558b8315d39c068d"); 
+    image-rendering:unset;
+    border-radius: 8px;
+}
+
+div {
+    text-align:center;
+    padding-top: 34px;
+    padding-bottom: 25px;
+}
+
+.unGrosProbleme {
+    background-image: url("images/dottedcolor.jpeg");
+    image-rendering:auto;
+    border-radius: 8px;
+}
+
+.tac {
+    background-image: url("images/copenhagen.jpg");
+    border-radius: 8px;
+}
+
+
+.lfph-history {
+    background-image: url("images/purpledots.png");
+    image-rendering: optimizeSpeed;
+    border-radius: 8px;
+   
+}
+
+.dansk-verden {
+    background: linear-gradient(0.45turn,red, white);
+    image-rendering: inherit;
+    border-radius: 8px;
+
+}
+
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
